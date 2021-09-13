@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(273, 75%, 66%);
+    font-size: 12px;
+    font-family: 'Kumbh Sans', sans-serif;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+hr {
+    color: hsl(240, 5%, 91%);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    max-width: 810px;
+    margin: auto;
+    padding: 70px 0px;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.img {
+    position: relative;
+    background-image: url('./images/bg-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image1 {
+    width: 380px;
+    position: absolute;
+    top: -25px;
+    left: -65px;
+}
+
+.image2 {
+    width: 150px;
+    position: absolute;
+    left: -72px;
+    top: 85px;
+}
+
+.content {
+    position: relative;
+    width: 355px;
+    box-sizing: border-box;
+}
+
+h1 {
+    position: absolute;
+    top: -35px;
+    color: hsl(238, 29%, 16%);
+}
+
+.box {
+    display: inline-block;
+    padding: 15px 0 15px 0;
+    background: url('./images/icon-arrow-down.svg') no-repeat right;
+    width: 100%;
+    color: hsl(237, 12%, 33%);
+}
+
+.box:hover {
+    cursor: pointer;
+    color: hsl(14, 88%, 65%);
+}
+
+.ask {
+    padding: 10px;
+    color: hsl(240, 6%, 50%);
+}
+
+@media screen and (max-width: 805px) {
+    body {
+        padding: 0;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80vh;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .img {
+        width: 400px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        width: 85%;
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+    .img {
+        height: 100px;
+        width: 320px;
+        left: -10px;
+        top: -200px;
+    }
+    .image1 {
+        width: 240px;
+        top: 25px;
+        left: 50px;
+    }
+    .image2 {
+        width: 100px;
+        left: 58px;
+        top: 92px;
+    }
+    .content {
+        width: 290px;
+    }
+    h1 {
+        left: 18px;
+    }
+    .box {
+        font-size: 14px;
+        letter-spacing: 0.8px;
+    }
+}
