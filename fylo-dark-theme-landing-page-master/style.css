@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#principal {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 85%;
+    margin: auto;
+    background-color: #181e2a;
+    color: hsl(0, 0%, 100%);
+    padding-top: 80px;
+}
+
+/* ----- Títulos ----- */
+/* ----- Botões ----- */
+
+.btn, h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* ----- Os parágrafos ----- */
+
+.font {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+/* ----- O cabeçário ----- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    margin: 50px;
+    margin-top: 0;
+}
+
+.logo {
+    width: 150px;
+}
+
+#ul {
+    display: flex;
+    list-style: none;
+}
+
+.list {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    margin-left: 40px;
+}
+
+/* ----- O principal ----- */
+
+main {
+    width: 50%;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    
+}
+
+#image {
+    width: 40vw;
+}
+
+#img-pri {
+    line-height: 50px;
+}
+
+#p-pri {
+    line-height: 28px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.btn {
+    color: hsl(0, 0%, 100%);
+    background-color: #4EC1D3;
+    padding: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 25px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* ----- Os cartões ----- */
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 65%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.card {
+    max-width: 380vw;
+    margin: 30px;
+    text-align: center;
+}
+
+.img {
+    height: 70px;
+    margin: 10px;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    margin: 15px;
+}
+
+/* ----- O conteúdo que tem a Imagem ----- */
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+#image-content {
+    width: 32vw;
+    margin-right: 50px;
+}
+
+.content-inner {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.p-content {
+    margin-top: 15px;
+}
+
+.hr {
+    display: inline-block;
+}
+
+.cont {
+    display: inline-block;
+    text-decoration: none;
+    color: #4EC1D3;
+}
+
+.conteudo {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    content: " ";
+    width: 15px;
+    height: 15px;
+    background: url('./images/icon-arrow.svg') no-repeat;
+    margin-left: 5px;
+}
+
+#line {
+    color: #4EC1D3;
+}
+
+/* ----- As cartas ----- */
+
+.cartas {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 300px;
+}
+
+.bg {
+    position: absolute;
+    top: -38px;
+    left: -10px;
+}
+
+.carta {
+    width: 240px;
+    padding: 25px 20px 20px 20px;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 8px;
+}
+
+.p-cartas {
+    margin-bottom: 15px;
+}
+
+.profile {
+    width: 20px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
+}
+
+.pp {
+    font-size: 0.5em;
+}
+
+/* ----- A inscrição ----- */
+
+.position {
+    position: relative;
+}
+
+.form {
+    position: absolute;
+    top: -110px;
+    right: 0;
+    left: 0;
+    width: 60%;
+    margin: auto;
+    background-color: hsl(217, 28%, 15%);
+    text-align: center;
+    padding: 30px 50px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 15px 15px 15px black;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.p-form {
+    margin-bottom: 15px;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: row;
+}
+
+.input {
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    font-size: 12px;
+}
+
+.input1 {
+    margin-right: 20px;
+    width: 100%;
+}
+
+.input2 {
+    color: hsl(0, 0%, 100%);
+    background-color: #4EC1D3;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.input2:hover {
+    cursor: pointer;
+}
+
+/* ----- O rodapé ----- */
+
+footer {
+    background-color: hsl(216, 53%, 9%);
+    padding-top: 150px;
+}
+
+#footer {
+    width: 90%;
+    height: 300px;
+    margin: auto;
+}
+
+#img-footer {
+    display: block;
+    margin-bottom: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 32% auto auto auto auto;
+}
+
+.display-pg {
+    display: grid;
+    grid-template-columns: 20px auto;
+}
+
+.p-footer {
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+.display-p {
+    display: flex;
+    flex-direction: column;
+}
+
+.tel {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+
+.phone {
+    margin-right: 20px;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+}
+
+.e-mail {
+    margin-right: 20px;
+}
+
+.ul1 {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.ul2 {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
