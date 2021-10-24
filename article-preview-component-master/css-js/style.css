@@ -1,0 +1,95 @@
+
+body {
+    background-color: hsl(210, 25%, 86%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 140px;
+    display: flex;
+    max-width: 70%;
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px hsl(212, 23%, 69%);
+}
+#drawers {
+    width: 40%;
+    border-radius: 20px 0 0 20px;
+}
+.content {
+    margin: 50px;
+}
+h2 {
+    margin-top: 0;
+}
+
+.identidade {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.ident {
+    display: flex;
+}
+#avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.name-date {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 15px;
+}
+h4 {
+    margin: 0;
+}
+.second-p {
+    margin: 0;
+}
+.icon {
+    content: "";
+    background: url('/images/icon-share.svg') no-repeat;
+    background-size: 22px;
+    background-position: center;
+    background-color: hsl(210, 25%, 86%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.balao-inteiro {
+    position: absolute;
+    right: -120px;
+    top: -102px;
+    animation: iframe 1s;
+}
+.balao {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: hsl(217, 19%, 35%);
+    width: 280px;
+    height: 60px;
+    border-radius: 10px;
+}
+#share {
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: hsl(210, 46%, 95%);
+}
+.redes-social {
+    width: 26px;
+}
+
+@keyframes iframe {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
